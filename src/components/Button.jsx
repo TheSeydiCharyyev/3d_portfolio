@@ -6,6 +6,8 @@ const button = ({ text, className, id }) => {
                 const target = document.getElementById('counter')
                 if (target && id) {
                     const offset = window.innerHeight * 0.15;
+                    const top = target.getBoundingClientRect().top + window.scrollY - offset;
+                    window.scrollTo({ top, behavior: 'smooth' })
                 }
 
             }}
