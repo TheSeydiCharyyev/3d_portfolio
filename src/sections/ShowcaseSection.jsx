@@ -5,6 +5,13 @@ const ShowcaseSection = () => {
         <div id='work' className='app-showcase'>ShowcaseSection
             <div className='w-full'>
                 <div className='showcaselayout'>
+                    {/* LEFT */}
+
+                    <div className='first-project-wrapper'>
+
+                    </div>
+
+                    {/* RIGHT */}
 
                 </div>
 
