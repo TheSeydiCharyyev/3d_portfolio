@@ -8,9 +8,9 @@ const AnimatedCounter = () => {
                     counterItems.map((item) => (
                         <div className='bg-zinc-900 rounden-lg p-10 flex flex-col justify-center'>
                             <div key={counterItems.label} className="counter-number text-white text-5-xl font-bold mb-2">
-                                0 {item.suffix}
+                                {item.value} {item.suffix}
                             </div>
-                            <div>{item.label}</div>
+                            <div className='text-dash-50 text-lg'>{item.label}</div>
 
                         </div>
                     ))
