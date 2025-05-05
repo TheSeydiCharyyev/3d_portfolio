@@ -12,4 +12,4 @@ const app = () => {
     )
 }
 
-export default Hero
+export default app;

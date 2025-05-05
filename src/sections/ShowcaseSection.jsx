@@ -9,7 +9,7 @@ const ShowcaseSection = () => {
 
                     <div className='first-project-wrapper'>
                         <div className='image-wrapper'>
-                            <img src='/images/project1.png' alt='Ryde' />
+                            <img src='./images/project1.png' alt='Ryde' />
                         </div>
                         <div className='text-content'>
                             <h2>On-Demand Rides Made Simple with a powerful, User-Friendly App called Ryde</h2>
