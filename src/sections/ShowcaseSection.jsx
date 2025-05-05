@@ -22,6 +22,12 @@ const ShowcaseSection = () => {
                     </div>
 
                     {/* RIGHT */}
+                    <div className='project-list-wrapper overflow-hidden'>
+                        <div className='project'>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
