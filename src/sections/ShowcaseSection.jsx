@@ -24,6 +24,9 @@ const ShowcaseSection = () => {
                     {/* RIGHT */}
                     <div className='project-list-wrapper overflow-hidden'>
                         <div className='project'>
+                            <div className='image-wrapper bg-[#ffefdb]'>
+                                <img src='/images/project2.png' alt='Library Management Platform' />
+                            </div>
 
                         </div>
 
