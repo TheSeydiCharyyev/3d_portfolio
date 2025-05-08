@@ -1,6 +1,7 @@
 import React from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useGSAP } from '@gsap/react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,6 +11,10 @@ const ShowcaseSection = () => {
     const project1Ref = useRef(null);
     const project2Ref = useRef(null);
     const project3Ref = useRef(null);
+
+    useGSAP(() => {
+        gsap.froTosectionRef.current
+    }, []);
 
 
     return (
