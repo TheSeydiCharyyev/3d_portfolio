@@ -1,6 +1,10 @@
 import React from 'react'
 
 const ShowcaseSection = () => {
+    const srctionRef = useRef(null);
+    const project1Ref = useRef(null);
+    const project2Ref = useRef(null);
+    const project3Ref = useRef(null);
     return (
         <div id='work' className='app-showcase'>ShowcaseSection
             <div className='w-full'>
