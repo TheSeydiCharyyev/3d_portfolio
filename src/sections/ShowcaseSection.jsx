@@ -6,7 +6,7 @@ const ShowcaseSection = () => {
     const project2Ref = useRef(null);
     const project3Ref = useRef(null);
     return (
-        <div id='work' className='app-showcase'>ShowcaseSection
+        <section id='work' ref={sectionRef} className='app-showcase'>
             <div className='w-full'>
                 <div className='showcaselayout'>
                     {/* LEFT */}
@@ -51,7 +51,7 @@ const ShowcaseSection = () => {
                 </div>
 
             </div>
-        </div>
+        </section>
     )
 }
 
