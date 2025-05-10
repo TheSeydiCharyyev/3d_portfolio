@@ -9,13 +9,14 @@ const ShowcaseSection = () => {
                     <div className='first-project-wrapper'>
                         <div className='image-wrapper'>
                             <img src="/images/project1.png" alt="Ryde" />
-                            <div className='text-content'>
-                                <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
-                                <p className='text-white-50 md:text-xl'>
-                                    Ann built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience.
-                                </p>
-                            </div>
                         </div>
+                        <div className='text-content'>
+                            <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+                            <p className='text-white-50 md:text-xl'>
+                                Ann built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience.
+                            </p>
+                        </div>
+
                     </div>
 
                     {/* RIGHT */}
@@ -24,6 +25,9 @@ const ShowcaseSection = () => {
                             <div className='image-wrapper bg-[#ffefdb]'>
                                 <img src="/images/project2.png" alt="Library Management Platform" />
                             </div>
+                            <h2>
+                                Library Management Platform
+                            </h2>
                         </div>
 
                     </div>
