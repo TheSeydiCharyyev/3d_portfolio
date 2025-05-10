@@ -11,6 +11,11 @@ const ShowcaseSection = () => {
                             <img src="/images/project1.png" alt="Ryde" />
                             <div className='text-content'>
                                 <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+                                <p className='text-white-50 md:text-xl'>
+                                    Ann built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience.
+
+
+                                </p>
 
                             </div>
 
