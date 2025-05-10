@@ -30,6 +30,15 @@ const ShowcaseSection = () => {
                             </h2>
                         </div>
 
+                        <div className='project'>
+                            <div className='image-wrapper bg-[#ffefdb]'>
+                                <img src="/images/project2.png" alt="Library Management Platform" />
+                            </div>
+                            <h2>
+                                Library Management Platform
+                            </h2>
+                        </div>
+
                     </div>
 
                 </div>
