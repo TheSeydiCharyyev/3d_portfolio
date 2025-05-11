@@ -27,6 +27,7 @@ const ShowcaseSection = () => {
                 delay: 0.3 * (index + 1),
                 ScrollTrigger: {
                     trigger: card,
+                    start: 'top-bottom=100'
                 }
             }
 
