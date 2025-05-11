@@ -1,4 +1,9 @@
 import { useRef } from 'react'
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 const ShowcaseSection = () => {
     const sectionRef = useRef(null);
@@ -35,7 +40,7 @@ const ShowcaseSection = () => {
                             </h2>
                         </div>
 
-                        <div className='project'>
+                        <div className='project' ref={project3Ref}>
                             <div className='image-wrapper bg-[#ffe7eb]'>
                                 <img src="/images/project3.png" alt="YC Directory" />
                             </div>
