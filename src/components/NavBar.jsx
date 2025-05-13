@@ -2,6 +2,9 @@ import React from 'react'
 import { navLinks } from '../constants'
 
 const NavBar = () => {
+    const [scrolled, serScroled] = useState(false);
+
+
     return (
         <header className='navbar'>
             <div className='inner'>
@@ -13,6 +16,8 @@ const NavBar = () => {
                         {navLinks.map(({ link, name }) => (
                             <li key={name} className='group'>
                                 <a href={link}>
+                                    <span>{name}</span>
+                                    <span className='underline' />
 
                                 </a>
                             </li>
@@ -28,7 +33,7 @@ const NavBar = () => {
                 </a>
             </div>
 
-        </header>
+        </header >
     )
 }
 
