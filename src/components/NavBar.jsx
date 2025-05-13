@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { navLinks } from '../constants'
 
 const NavBar = () => {
-    const [scrolled, serScroled] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 10;
+            setScrolled(true)
+        }
+    }, [])
 
 
     return (
