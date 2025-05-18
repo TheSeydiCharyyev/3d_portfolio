@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { navLinks } from '../constants'
 const NavBar = () => {
     return (
         <header className='navbar'>
@@ -8,7 +8,12 @@ const NavBar = () => {
                     Seydi Charyyev
                 </a>
                 <nav className='desktop'>
-
+                    <ul>
+                        {navLinks.map(({ link, name }) =>
+                        (
+                            <li></li>
+                        ))}
+                    </ul>
                 </nav>
                 <a href="#contact" className='contact-btn group'>
                     <div className='inner'>
