@@ -6,8 +6,14 @@ const NavBar = () => {
             <div className='inner'>
                 <a className='logo' href="#hero">
                     Seydi Charyyev
-
                 </a>
+                <nav className='desktop'>
+
+                </nav>
+                <a href="#contact" className='contact-btn group'></a>
+                <div className='inner'>
+                    <span> Contact Me</span>
+                </div>
             </div>
         </header>
     )
