@@ -10,10 +10,11 @@ const NavBar = () => {
                 <nav className='desktop'>
 
                 </nav>
-                <a href="#contact" className='contact-btn group'></a>
-                <div className='inner'>
-                    <span> Contact Me</span>
-                </div>
+                <a href="#contact" className='contact-btn group'>
+                    <div className='inner'>
+                        <span> Contact Me</span>
+                    </div>
+                </a>
             </div>
         </header>
     )
