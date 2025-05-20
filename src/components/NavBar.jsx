@@ -1,6 +1,16 @@
-import React from 'react'
-import { navLinks } from '../constants'
+import { navLinks } from '../constants/index';
+import { useEffect, useState } from 'react';
+
+
 const NavBar = () => {
+    const [scrolled, setScrolled] = useState(false);
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 10;
+            setScrolled(true)
+        }
+    }, [])
+
     return (
         <header className='navbar'>
             <div className='inner'>
