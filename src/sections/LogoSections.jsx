@@ -23,6 +23,11 @@ const LogoSections = () => {
 
                     ))}
 
+                    {logoIconsList.map((icon) => (
+                        <LogoIcon key={icon.name} icon={icon} />
+
+                    ))}
+
                 </div>
 
             </div>
