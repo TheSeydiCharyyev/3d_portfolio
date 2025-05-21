@@ -1,10 +1,16 @@
-import React from 'react'
-import { div } from 'three/tsl'
+import { abilities } from '../constants'
 
 const FeatureCards = () => {
     return (
         <div className='w-full padding-x-lg'>
-            <div className='mx-auto'>
+            <div className='mx-auto grid-3-col'>
+                {abilities.map(({ imgPath, title, desc }) => (
+                    <div>
+                        <h3>
+                            {title}
+                        </h3>
+                    </div>
+                ))}
 
             </div>
 
