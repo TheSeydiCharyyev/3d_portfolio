@@ -1,5 +1,5 @@
-import React from 'react'
 import TitleHeader from '../components/TitleHeader'
+import { expCards } from '../constants/index'
 
 const ExperienceSection = () => {
     return (
@@ -8,7 +8,10 @@ const ExperienceSection = () => {
                 <TitleHeader title='Professional Work Experience'
                     sub="My Career Overview" />
                 <div className='mt-32 relative'>
+                    <div className='relative z-50 xl:space-y-32 space-y-10'>
+                        {expCards}
 
+                    </div>
 
                 </div>
             </div>
