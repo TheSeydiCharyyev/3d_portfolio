@@ -10,7 +10,8 @@ const ExperienceSection = () => {
                 <div className='mt-32 relative'>
                     <div className='relative z-50 xl:space-y-32 space-y-10'>
                         {expCards.map((card) => (
-                            <div key={card.title}>
+                            <div key={card.title} className='exp-card-wrapper'>
+                                {card.title}
 
                             </div>
                         ))}
