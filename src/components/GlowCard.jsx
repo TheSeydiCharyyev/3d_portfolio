@@ -1,8 +1,13 @@
 import React from 'react'
 
-const GlowCard = () => {
+const GlowCard = ({ card, children }) => {
     return (
-        <div>GlowCard</div>
+        <div className='card car-border time-card rounded-xl p-10'>
+            <div>
+                <div />
+            </div>
+
+        </div>
     )
 }
 
