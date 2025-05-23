@@ -7,7 +7,7 @@ const GlowCard = ({ card, children }) => {
                 <div className='glow' />
                 <div>
                     {Array.from({ length: 5 }, (_, i) => (
-                        <img src='' />
+                        <img src='/images/star.png' key={i} alt="star" className='size-5' />
                     ))}
                 </div>
             </div>
