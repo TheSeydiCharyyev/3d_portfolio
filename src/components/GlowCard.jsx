@@ -10,6 +10,9 @@ const GlowCard = ({ card, children }) => {
                     <img src='/images/star.png' key={i} alt="star" className='size-5' />
                 ))}
             </div>
+            <div>
+
+            </div>
 
 
         </div>
