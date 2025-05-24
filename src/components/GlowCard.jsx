@@ -1,8 +1,16 @@
 import React from 'react'
 
 const GlowCard = ({ card, children }) => {
+
+    const cardRefs = useRef([]);
+
+    const handleMouseMove = (index) => (e) => {
+        const card = cardRefs.current[index];
+        if (card) return;
+    }
+
     return (
-        <div className='card car-border time-card rounded-xl p-10'>
+        <div ref={(el) => (cardRefs.current[index] = el)} onMouseMove={handleMouseMove(index)} className='card car-border time-card rounded-xl p-10'>
 
             <div className='glow' />
             <div className='flex items-center gap-1 mb-5'>
@@ -16,8 +24,7 @@ const GlowCard = ({ card, children }) => {
                 </p>
 
             </div>
-
-
+            {children}
         </div>
     )
 }
