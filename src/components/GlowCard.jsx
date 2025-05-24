@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useRef } from "react";
 
-const GlowCard = ({ card, children }) => {
+const GlowCard = ({ card, children, index }) => {
 
     const cardRefs = useRef([]);
 
